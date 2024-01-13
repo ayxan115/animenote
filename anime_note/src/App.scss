@@ -1,0 +1,90 @@
+.App {
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 1000px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    
+    .logo{
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+
+        p {
+            text-transform: uppercase;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .user {
+            cursor: pointer;
+        }
+    }
+}
+
+
+.home {
+    h2 {
+        margin: 30px 0px 30px 0px;
+    }
+
+   .content {
+    display: flex;
+    justify-content: space-around;
+
+    .catigori{
+        li{
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+    }
+    .anime_items{
+        display: flex;
+        flex-wrap: wrap;
+        
+    .anime_card{
+        margin-right: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+        img{
+            width: 200px;
+        }
+        .anime_down {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+
+            .btn {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+  }
+   }
+}
+
+
+.footer {
+	position: absolute;
+	left: auto;
+	bottom: 0;
+	width: 1000px;
+	height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
